@@ -21,7 +21,8 @@ struct Images {
 }
 
 
-extension MovieListVC{
+extension MovieListVC
+{
     
     func fetchData() -> [Movie]{
      

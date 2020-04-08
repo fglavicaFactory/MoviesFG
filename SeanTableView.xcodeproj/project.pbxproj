@@ -26,6 +26,7 @@
 		0EC88C8E243DE35A004D706A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC88C8D243DE35A004D706A /* NetworkManager.swift */; };
 		0EC88C90243DE9A8004D706A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC88C8F243DE9A8004D706A /* Response.swift */; };
 		0EC88C92243DE9FA004D706A /* SerilizationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC88C91243DE9FA004D706A /* SerilizationManager.swift */; };
+		0EC88C94243DF43E004D706A /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC88C93243DF43D004D706A /* DatabaseManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		0EC88C8D243DE35A004D706A /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		0EC88C8F243DE9A8004D706A /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 		0EC88C91243DE9FA004D706A /* SerilizationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerilizationManager.swift; sourceTree = "<group>"; };
+		0EC88C93243DF43D004D706A /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +176,7 @@
 			children = (
 				0EC88C8D243DE35A004D706A /* NetworkManager.swift */,
 				0EC88C91243DE9FA004D706A /* SerilizationManager.swift */,
+				0EC88C93243DF43D004D706A /* DatabaseManager.swift */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 			files = (
 				0EC88C8E243DE35A004D706A /* NetworkManager.swift in Sources */,
 				0EC88C87243DD23B004D706A /* DataUtility.swift in Sources */,
+				0EC88C94243DF43E004D706A /* DatabaseManager.swift in Sources */,
 				0EC88C50243C91A1004D706A /* AppDelegate.swift in Sources */,
 				0EC88C6C243C9B9D004D706A /* MovieObject.swift in Sources */,
 				0EC88C74243CA63A004D706A /* MovieCell.swift in Sources */,

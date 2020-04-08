@@ -6,9 +6,19 @@
 //  Copyright © 2020 Filip Glavica. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
-protocol ToogleButton: class {
-    func watchedButtonTapped(with id: Int)
-    func favouritedButtonTapped(with id: Int)
+class ToogleButton: UITableViewCell {
+
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        // Initialization code
+    }
+
+    override func setSelected(_ selected: Bool, animated: Bool) {
+        super.setSelected(selected, animated: animated)
+
+        // Configure the view for the selected state
+    }
+
 }

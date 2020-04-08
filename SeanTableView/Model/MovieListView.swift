@@ -14,8 +14,8 @@ struct MovieListView {
     let description: String
     let imageURL: String
     let year: String
-   // var watched: Bool
-    //var favourite: Bool
+    var watched: Bool
+    var favourite: Bool
     
     init(id: Int, title: String, description: String, imageURL: String, year: String, watched: Bool, favourite: Bool){
         self.id = id
@@ -23,7 +23,7 @@ struct MovieListView {
         self.description = description
         self.imageURL = imageURL
         self.year = year
-      //  self.watched = watched
-       // self.favourite = favourite
+        self.watched = watched
+        self.favourite = favourite
     }
 }
